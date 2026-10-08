@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "tool": "studio",
+  "name": "SolidCore Studio",
+  "version": "0.6.0",
+  "date": "2026-10-06",
+  "summary": "Credits and history for every world, project credits, Content Credentials on exports and HEIC images.",
+  "link": "https://solid24systems.com",
+  "history": [
+    { "version": "0.6.0", "date": "2026-10-06", "summary": "Credits and history for every world, project credits, Content Credentials on exports and HEIC images." }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "tool": "world-map-editor",
+  "name": "SolidCore World Map Editor",
+  "version": "0.10.0",
+  "date": "2026-10-06",
+  "summary": "Credits and history for every world, Content Credentials on exports, HEIC images, and a secret passage in the Caverns sample.",
+  "link": "https://solid24systems.com",
+  "demoLink": "https://solid24systems.com",
+  "history": [
+    { "version": "0.10.0", "date": "2026-10-06", "summary": "Credits and history for every world, Content Credentials on exports, HEIC images, and a secret passage in the Caverns sample." }
+  ]
+}
