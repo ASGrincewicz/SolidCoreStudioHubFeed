@@ -68,3 +68,18 @@ picture and puts it at the top of the list:
   (`community/<id>/…`, lowercase letters, digits, dots, dashes and underscores); anything else is ignored.
 - A world must carry its credits (who made it) or the app refuses to open it.
 - Worlds can be up to 8 MB and pictures up to 2 MB (PNG or JPEG; the card shows it 250×140, cropped).
+
+### Taking one down
+
+Anyone who made a shared world can have it removed:
+
+- **From the app:** right-click its card, Ask to Remove…, and pick their own copy of the world. The app
+  checks the history beside it (the `.solidlog` file) and starts an email with that file to attach.
+  Every save adds a session to the history, each hashed with the one before, and the shared copy
+  records its newest session's hash; only someone with the real history has a whole chain that reaches
+  it. Check it again and remove the world with
+  `scripts/remove-community-world.sh <id> --history their.solidlog`.
+- **By email,** for anyone who lost their history: judge it yourself, then
+  `scripts/remove-community-world.sh <id> --by-email`.
+
+Then commit and publish. Copies people already downloaded stay on their computers.
