@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "products": {
+    "world-map-editor": {
+      "version": "0.10.0",
+      "date": "2026-10-06",
+      "summary": "Credits and history for every world, Content Credentials on exports, HEIC images, and a secret passage in the Caverns sample.",
+      "link": "https://solid24systems.com",
+      "demoLink": "https://solid24systems.com"
+    },
+    "studio": {
+      "version": "0.6.0",
+      "date": "2026-10-06",
+      "summary": "Credits and history for every world, project credits, Content Credentials on exports and HEIC images.",
+      "link": "https://solid24systems.com"
+    }
+  }
+}
