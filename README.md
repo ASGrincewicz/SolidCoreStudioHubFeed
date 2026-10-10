@@ -36,6 +36,22 @@ installed by the app.
 - Bump `version` only once the new build can be downloaded from `link`. The publish script refuses a
   version ahead of the one in SolidCore's project file.
 
+## Releases: the downloads
+
+The repository is public (SolidCore's isn't), so the downloads are GitHub releases here, uploaded by
+`scripts/release.sh --product worldmap --summary "…"`. It builds the packages, uploads them, then bumps
+`tools/<tool>.json` and publishes the feed, in that order. Each tool has two releases: `<tool>-v<version>`
+keeps each version, and `<tool>` always holds the newest. The website links to that one, so its links never
+change:
+
+```
+https://github.com/ASGrincewicz/SolidCoreStudioHubFeed/releases/download/world-map-editor/SolidCore-World-Map-Editor-Demo-osx-arm64.zip
+```
+
+Only the trials (the demo, the preview) go out until the apps check licenses; `--with-full` adds the full
+editions. The Windows installer is built on a Windows PC from the installer kit and added with
+`--attach SolidCore-World-Map-Editor-Demo-Setup.exe`.
+
 ## community/: the Community tab
 
 Worlds people shared, sent in by email from the editor (File → Share with the Community…). Each has its
