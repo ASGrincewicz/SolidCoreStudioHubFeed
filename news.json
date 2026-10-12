@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "items": [
+    {
+      "id": "world-map-editor-0-10",
+      "date": "2026-10-09",
+      "title": "The World Map Editor demo is out",
+      "summary": "Draw a world's rooms and doors, give it abilities, and see that it can be finished: the demo is free to try.",
+      "link": "https://solid24systems.com/solidcore-map-editor"
+    }
+  ]
+}

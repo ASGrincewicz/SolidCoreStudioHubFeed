@@ -36,6 +36,26 @@ installed by the app.
 - Bump `version` only once the new build can be downloaded from `link`. The publish script refuses a
   version ahead of the one in SolidCore's project file.
 
+## news.json: the hub's News
+
+What's relevant, as the hub's News page lists it (newest first), beside the tool's own newest version (the website's
+builds) and the newest Community worlds, which the apps add themselves. A dot on the News button shows until it's opened.
+
+```json
+{
+  "format": 1,
+  "items": [
+    { "id": "level-editor", "date": "2026-11-02", "title": "The Level Editor is coming",
+      "summary": "One or two sentences.", "link": "https://solid24systems.com/level-editor", "tools": ["studio"] }
+  ]
+}
+```
+
+- `id`, `date` (yyyy-MM-dd) and `title` are required; an item without them is skipped. Keep an item's `id` the same
+  when editing it, or it shows as new again.
+- `link` is optional (`https://` only): where choosing the item goes.
+- `tools` is optional: the tools the item is for (`world-map-editor`, `studio`); without it, every tool shows it.
+
 ## Releases: the downloads
 
 The repository is public (SolidCore's isn't), so the downloads are GitHub releases here, uploaded by
